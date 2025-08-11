@@ -1,0 +1,25 @@
+.footer {
+    background-color: #E63946;
+    color: #2e2e2e;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  .reseaux_sociaux {
+    text-align: center;
+  }
+  
+  .reseaux_sociaux a {
+    margin-right: 10px;
+  }

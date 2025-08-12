@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import * as XLSX from "xlsx";
 import '../style/List.css'
+import { useNavigate } from "react-router-dom";
 
 function MovieList() {
   const [movies, setMovies] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/public/movies_cartoon_full.xlsx")
@@ -16,6 +18,10 @@ function MovieList() {
       })
       .catch((err) => console.error("Erreur chargement Excel:", err));
   }, []);
+
+  const handleVoirDetails = (movie,id) => {
+    navigate(`/detail/${id}`, { state: { movie } });
+  }
 
 
   return (
@@ -41,7 +47,7 @@ function MovieList() {
                   <h1>{movie.Titre}</h1>
                   <h3>⭐{movie.Note}</h3>
                   <h3>{movie.Min} munites</h3>
-                  <button>Voir Details</button>
+                  <button onClick={( ) => handleVoirDetails(movie,movie.id)}>Voir Details</button>
                 </div>
               </div>
             </div>

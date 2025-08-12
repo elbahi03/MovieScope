@@ -10,8 +10,10 @@ function App() {
   return (
     <>
       <Header />
-      <List />
-      <Detail />
+      <Routes>
+        <Route path="/" element={<List />} />
+        <Route path="/detail/:id" element={<Detail />} />
+      </Routes>
      <Footer />
     </>
   )

@@ -1,7 +1,7 @@
 import React from "react";
-
 import ReactPlayer from "react-player";
 import { useLocation, useNavigate } from "react-router-dom";
+import Best from "./Best";
 
 
 function Detail() {
@@ -30,6 +30,7 @@ function Detail() {
                     </div>
                 </div>
                 <button onClick={() => navigate("/")}>Return a list movies</button>
+                <Best />
         </div>
     )
 }

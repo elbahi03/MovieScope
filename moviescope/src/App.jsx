@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      
       <Routes>
         <Route path="/" element={<List />} />
         <Route path="/detail/:id" element={<Detail />} />

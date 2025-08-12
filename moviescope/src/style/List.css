@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+    margin:30px 80px;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #E63946;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px; 
+    margin-bottom: 50px;   
+}
+
+.wrapper{
+    perspective: 3000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 360px;
+    height: 530px;
+    transform-style: preserve-3d;
+    transition: transform .8s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #F8F9FA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.front-page,
+.back-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+.front-page{
+    background-size: cover;
+}
+.card-info{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    color: #F8F9FA;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card-title{
+    font-style: 2rem;
+    font-weight: bold;
+}
+.card-subtitle{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #0fbcf9;
+}
+.back-page{
+    background-color: #E63946;
+    color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.card-content{
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.back-page h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.back-page h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.back-page button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #F8F9FA;
+    color: #E63946;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-page button:hover {
+    transform: scale(1.2);
+}

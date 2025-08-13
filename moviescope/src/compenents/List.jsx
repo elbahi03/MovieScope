@@ -29,20 +29,20 @@ function MovieList() {
       <h1 className="title">
         LISTES DE FILMS
       </h1>
-      <div class="container">
+      <div className="container">
       {movies.map((movie, index) => (
         <div class="wrapper">
 
-          <div class="card">
-            <div class="front-page" style={{ backgroundImage: `url(${movie.Affiche})` }} >
-              <div class="card-info">
+          <div className="card">
+            <div className="front-page" style={{ backgroundImage: `url(${movie.Affiche})` }} >
+              <div className="card-info">
                 <div key={index}>
                 </div>
               </div>
             </div>
 
-            <div class="back-page">
-              <div class="card-content">
+            <div className="back-page">
+              <div className="card-content">
                 <div key={index}>
                   <h1>{movie.Titre}</h1>
                   <h3>⭐{movie.Note}</h3>

@@ -1,0 +1,114 @@
+.detail{
+    margin: 50px auto;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.detail-image {
+    width: 510px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    align-items: start;
+    border: 1px solid #F8F9FA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin-right: 50px;
+    transition: 0.3s;
+}
+
+.detail-image:hover {
+    transform: scale(1.1);
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.detail-info {
+    padding: 20px 0 ;
+}
+
+.detail-info h1 {
+    font-size: 75px;
+    margin: 0 auto;
+    color: #E63946;
+}
+
+.detail-info h3 {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.detail-description {
+    padding: 10px 0;
+}
+
+.detail-description h2 {
+    font-size: 50px;
+    margin: 0 auto;
+    color: #E63946;
+}
+
+.detail-description h4 {
+    font-size: 20px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.detail-trailer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.detail-trailer h1 {
+    font-size: 50px;
+    margin: 0 auto;
+    color: #E63946;
+    align-items: center;
+    padding: 50px 0;
+}
+
+/*.react-player {
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    border: 1px solid #F8F9FA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 0 auto;
+}*/
+
+.return-page {
+    color: #F8F9FA;
+    padding: 20px 0;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #E63946;
+    font-size: 20px;
+    border: 1px solid #F8F9FA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    position: relative;
+    left: 45%; 
+    transition: 0.3s;  
+}
+
+.return-page:hover {
+    transform: scale(1.1);
+}

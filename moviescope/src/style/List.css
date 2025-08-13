@@ -22,7 +22,7 @@
     margin-bottom: 50px;
     left: 50%;
     width: 50%;
-    height: 50px;
+    height: 65px;
     border: 1px solid #F8F9FA;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
     -5px -5px 10px rgba(0, 0, 0, 0.05);
@@ -32,6 +32,7 @@
     margin-top: 60px;
     font-size: 30px;
     color: #2e2e2e;
+    padding:  0 40px;
 }
 
 .container{

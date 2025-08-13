@@ -1,0 +1,36 @@
+.about-page {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+  }
+  
+  .about-page h1 {
+    text-align: center;
+    color: #F8F9FA;
+    margin-bottom: 30px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .personal-definition {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid #F8F9FA;
+  }
+  
+  .personal-definition h2 {
+    color: #F8F9FA;
+    margin-bottom: 15px;
+  }
+  
+  .personal-definition p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  

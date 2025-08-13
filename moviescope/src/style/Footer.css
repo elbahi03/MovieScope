@@ -26,11 +26,12 @@
 .newsletter input {
   margin-top: 10px;
   width: 100%;
-  max-width: 400px;
-  height: 30px;
+  max-width: 600px;
+  height: 40px;
   border: #E63946;
   border-radius: 5px;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 .contact p{
   color : #F8F9FA;

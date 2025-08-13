@@ -22,7 +22,7 @@ function Best() {
   }, []);
 
   const handleVoirDetails = (movie, id) => {
-    navigate(`/detail/${id}`, { state: { movie } });
+    navigate(`/movies/${id}`, { state: { movie } });
 
   }
 

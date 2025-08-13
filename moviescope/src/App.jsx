@@ -7,11 +7,13 @@ import List from './compenents/List'
 import Detail from './compenents/Detail'
 import Home from './page/Home'
 import Apropos from './page/Apropos'
+import Scrolltotop from './compenents/Scrolltotop'
 function App() {
 
   return (
     <>
       <Header />
+      < Scrolltotop />
       <Routes>
         <Route path="/" element={<Home  />} />
         <Route path="/movies" element={<List />} />

@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.hero-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 100px;
+  color: #E63946;
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #F8F9FA;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  height: 60px;
+  background-color: #E63946;
+  color: #F8F9FA;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.hero-content button:hover {
+  background-color: #F8F9FA;
+  color: #E63946;
+  transform: scale(1.2);
+}
+

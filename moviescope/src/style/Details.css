@@ -22,6 +22,7 @@
     border-radius: 15px;
     margin-right: 50px;
     transition: 0.3s;
+    margin-left: 50px;
 }
 
 .detail-image:hover {
@@ -40,30 +41,32 @@
 }
 
 .detail-info h1 {
-    font-size: 75px;
-    margin: 0 auto;
-    color: #E63946;
+    font-size: 100px;
+    color: #2e2e2e;
 }
 
 .detail-info h3 {
     font-size: 25px;
     margin: 0 auto;
+    color: #F8F9FA;
 }
 
 .detail-description {
-    padding: 10px 0;
+    padding: 10px  300px  10px 0px;
+
 }
 
 .detail-description h2 {
     font-size: 50px;
-    margin: 0 auto;
-    color: #E63946;
+    margin:  auto;
+    color: #2e2e2e;
 }
 
 .detail-description h4 {
     font-size: 20px;
     margin: 0 auto;
     padding: auto;
+    color: #F8F9FA;
 }
 
 .detail-trailer {

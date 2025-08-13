@@ -1,6 +1,6 @@
 .footer {
-    background-color: #E63946;
-    color: #2e2e2e;
+    background-color: #2e2e2e;
+    color: #E63946;
     padding: 20px;
     height: 250px;
   }
@@ -25,7 +25,7 @@
     margin-top: 10px;
     width: 400px;
     height: 30px;
-    border: #2e2e2e;
+    border: #E63946;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -35,9 +35,9 @@
     margin-top: 10px;
     width: 100px;
     height: 30px;
-    border: #2e2e2e;
+    border: #E63946;
     border-radius: 5px;
-    background-color: #2e2e2e;
+    background-color: #E63946;
     color: #F8F9FA;
     cursor: pointer;
     transition: all 0.3s;
@@ -45,7 +45,7 @@
 
   .newsletter button:hover {
     background-color: #F8F9FA;
-    color: #2e2e2e;
+    color: #E63946;
     transition: all 0.5s ;
   }
   
@@ -64,7 +64,7 @@
   
   .reseaux_sociaux a {
     margin-right: 10px;
-    color: #2e2e2e;
+    color: #E63946;
   }
 
   .reseaux_sociaux a:hover {

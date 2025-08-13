@@ -28,7 +28,7 @@ function Detail() {
                     </div>
                 </div>
             </div>
-            <button className="return-page" onClick={() => navigate("/")}>Return a list movies</button>
+            <button className="return-page" onClick={() => navigate("/movies")}>Return a list movies</button>
         </div>
             <Best />
         </>

@@ -20,12 +20,12 @@ function MovieList() {
   }, []);
 
   const handleVoirDetails = (movie,id) => {
-    navigate(`/detail/${id}`, { state: { movie } });
+    navigate(`/movies/${id}`, { state: { movie } });
   }
 
 
   return (
-    <div >
+    <div className="movie-list" >
       <h1 className="title">
         LISTES DE FILMS
       </h1>
